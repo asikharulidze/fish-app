@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import FishWrapper from './components/Wrapper/FishWrapper';
+import {fishes} from './components/Wrapper/fishes';
+import NavBar from './components/NavBar/NavBar';
+import NavBarItem from './components/NavBar/NavBarItem/NavBarItem';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar>
+        <NavBarItem title="Home"/>
+        <NavBarItem title="About"/>
+        <NavBarItem title="Fishes" to="/Fishes"  activeClassName="active"/>
+      </NavBar>
+      <FishWrapper fishes={fishes}></FishWrapper>
     </div>
   );
 }
