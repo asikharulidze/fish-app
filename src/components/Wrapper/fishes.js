@@ -4,7 +4,7 @@ export const fishes = [
         "region": "Pacific Islands",
         "scientificName": "Pristipomoides filamentosus",
         "illustrationPhoto": {
-            "src": "https://hawaii-seafood.org/wp-content/uploads/2015/06/Pinksnapper.gif",
+            "src": "fishes/Pinksnapper.gif",
             "alt": "Pink snapper",
             "title": "Pink snapper"
         },
@@ -15,7 +15,7 @@ export const fishes = [
         "region": "Greater Atlantic",
         "scientificName": "Urophycis tenuis",
         "illustrationPhoto": {
-            "src": "https://www.conxemar.com/wp-content/uploads/2022/12/urophycis_tenuis_el-1.jpeg",
+            "src": "fishes/urophycis_tenuis_el-1.jpeg",
             "alt": "Illustration of white hake. Credit: Jack Hornady.",
             "title": ""
         },
@@ -26,7 +26,7 @@ export const fishes = [
         "region": "Greater Atlantic",
         "scientificName": "Scomber colias",
         "illustrationPhoto": {
-            "src": "https://www.fisheries.noaa.gov/s3/styles/original/s3/2022-08/640x427-Mackerel-Atlantic-NOAAFisheries.png",
+            "src": "fishes/640x427-Mackerel-Atlantic-NOAAFisheries.png",
             "alt": "Illustration of Atlantic chub mackerel",
             "title": "Atlantic chub mackerel"
         },
@@ -37,7 +37,7 @@ export const fishes = [
         "region": "Greater Atlantic",
         "scientificName": "Illex illecebrosus",
         "illustrationPhoto": {
-            "src": "https://www.seafoodwatch.org/globalassets/sfw-data-blocks/species/squid/shortfin-squid.png",
+            "src": "fishes/shortfin-squid.webp",
             "alt": "shortfin squid",
             "title": "Shortfin Squid"
         },
@@ -48,7 +48,7 @@ export const fishes = [
         "region": "Greater Atlantic",
         "scientificName": "Homarus americanus",
         "illustrationPhoto": {
-            "src": "https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/640x427-american-lobster.png",
+            "src": "fishes/640x427-american-lobster.png",
             "alt": "American Lobster",
             "title": "American Lobster"
         },
@@ -59,7 +59,7 @@ export const fishes = [
         "region": "West Coast, Alaska",
         "scientificName": "Sebastes flavidus",
         "illustrationPhoto": {
-            "src": "https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/640x427-rockfish_yellowtail_nb_w.jpg",
+            "src": "fishes/640x427-rockfish_yellowtail_nb_w.jpg",
             "alt": "Yellowtail rockfish",
             "title": "Yellowtail rockfish"
         },
@@ -70,7 +70,7 @@ export const fishes = [
         "region": "West Coast, Alaska",
         "scientificName": "Sebastes paucispinis",
         "illustrationPhoto": {
-            "src": "https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/640x427-bocaccio.jpg",
+            "src": "fishes/640x427-bocaccio.jpg",
             "alt": "Illustration of a Bocaccio rockfish.",
             "title": "Bocaccio rockfish."
         },
@@ -81,7 +81,7 @@ export const fishes = [
         "region": "West Coast, Greater Atlantic, Alaska",
         "scientificName": "Saccharina latissima",
         "illustrationPhoto": {
-            "src": "https://seaweedsolutions.com/images/_mwebp/31007/large-sugar-kelp-leaves.webp",
+            "src": "fishes/large-sugar-kelp-leaves.webp",
             "alt": "",
             "title": ""
         },
@@ -92,7 +92,7 @@ export const fishes = [
         "region": "West Coast",
         "scientificName": "Anoplopoma fimbria",
         "illustrationPhoto": {
-            "src": "https://s3.divcom.com/seafoodsource.com/images/534e2f9f231ceeb4b29de752c1aaf936.jpeg",
+            "src": "fishes/534e2f9f231ceeb4b29de752c1aaf936.jpeg",
             "alt": "",
             "title": ""
         },
@@ -102,7 +102,7 @@ export const fishes = [
         "region": "Greater Atlantic",
         "scientificName": "Hippoglossus hippoglossus",
         "illustrationPhoto": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hippoglossus_hippoglossus2.jpg/1200px-Hippoglossus_hippoglossus2.jpg",
+            "src": "fishes/1200px-Hippoglossus_hippoglossus2.jpg",
             "alt": "Illustration of Atlantic Halibut.",
             "title": "Illustration of Atlantic Halibut."
         },
