@@ -1,6 +1,6 @@
 import './App.css';
 import FishWrapper from './components/Wrapper/FishWrapper';
-import {fishes} from './components/Wrapper/fishes';
+import fishes from './components/Wrapper/fishes';
 import NavBar from './components/NavBar/NavBar';
 import NavBarItem from './components/NavBar/NavBarItem/NavBarItem';
 
