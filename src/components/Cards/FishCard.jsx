@@ -14,10 +14,7 @@ const FishCard = ({src, alt, name, title, region, info, cardClickd}) =>{
         setIsShowing(true);
     }
     const handleLikesClick = ()=>{
-        if (likes < 5){
-            setLikes(likes+1);
-        }
-        
+            setLikes(likes+1);        
     }
     const handleDislikesClick = ()=>{
         
