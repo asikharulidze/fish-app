@@ -10,11 +10,7 @@ const Modal = ({Header, children, onClose, likes, onLike, onDislike} ) => {
                 <div className="modal-body">
                     {children}
                 </div> 
-                <div class="modal-footer">
-                    <div>Likes: {likes}</div>
-                    <button className="likebtn" onClick={onLike}>Like</button>
-                    <button className="likebtn" onClick={onDislike}>Dislike</button>
-                </div>
+                
             </div>
         </div>
     )
