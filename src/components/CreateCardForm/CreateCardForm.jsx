@@ -10,7 +10,7 @@ const FishCardForm = ({onCardSubmit}) => {
   });
 
   const [formErrors, setFormErrors] = useState({});
-
+  const [file, setFile] = useState();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCardForm({
@@ -21,6 +21,8 @@ const FishCardForm = ({onCardSubmit}) => {
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
+    setFile(URL.createObjectURL(file));
+
     setCardForm({
       ...CardForm,
       illustrationPhoto: file
@@ -124,6 +126,7 @@ const FishCardForm = ({onCardSubmit}) => {
       </div>
       <div className="form-group">
         <label htmlFor="illustrationPhoto">Illustration Photo:</label>
+        <img src={file} />
         <input
           type="file"
           id="illustrationPhoto"

@@ -78,4 +78,27 @@
     width: 100px;
     border: none;
 }
-  
+@media screen and (max-width: 995px), 
+       screen and (max-height: 700px) {
+        .modal-body {
+          font-size: 11px;
+      }
+      input[type="text"], textarea, input[type="file"] {
+        width: 95%;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 11px !important
+    }
+    .form-group {
+      margin-bottom: 10px!important
+    }
+    button {
+      margin: 10px auto!important;
+      font-size: 11px!important;
+    }
+    h4{
+      margin: 0.5rem;
+      font-size: smaller;
+    }
+}  
