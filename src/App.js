@@ -1,21 +1,28 @@
 import './App.css';
-import FishWrapper from './components/Wrapper/FishWrapper';
-import fishes from './components/Wrapper/fishes';
-import NavBar from './components/NavBar/NavBar';
-import NavBarItem from './components/NavBar/NavBarItem/NavBarItem';
+import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import AppLayout from './ui/AppLayout';
+import Error from './ui/Error';
+import Home from './ui/Home';
+import FishWrapper, {fishLoader} from './components/Wrapper/FishWrapper';
+//import fishes from './components/Wrapper/fishes';
+const router = createBrowserRouter([
+  {
+    element:<AppLayout />,
+    errorElement:<Error />,
+    children:[{
+      path: "/",
+      element:<Home />
+    },
+    {
+      path: "/fishes",
+      element:<FishWrapper />,
+      loader: fishLoader,
+    }]
+  }
+])
 
 function App() {
-  
-  return (
-    <div className="App">
-      <NavBar>
-        <NavBarItem title="Home"/>
-        <NavBarItem title="About"/>
-        <NavBarItem title="Fishes" to="/Fishes"  activeClassName="active"/>
-      </NavBar>
-      <FishWrapper fishes={fishes}></FishWrapper>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

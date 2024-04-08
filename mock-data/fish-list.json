@@ -1,10 +1,11 @@
-[
+{
+    "fishes":[
     {
         "info": "Bottomfish fishing operations, typically using weighted lines and baited hooks, do not have adverse impacts to the habitat.",
         "region": "Pacific Islands",
         "scientificName": "Pristipomoides filamentosus",
         "illustrationPhoto": {
-            "src": "fishes/Pinksnapper.gif",
+            "src": "../fishes/Pinksnapper.gif",
             "alt": "Pink snapper",
             "title": "Pink snapper"
         },
@@ -15,7 +16,7 @@
         "region": "Greater Atlantic",
         "scientificName": "Urophycis tenuis",
         "illustrationPhoto": {
-            "src": "fishes/urophycis_tenuis_el-1.jpeg",
+            "src": "../fishes/urophycis_tenuis_el-1.jpeg",
             "alt": "Illustration of white hake. Credit: Jack Hornady.",
             "title": ""
         },
@@ -26,7 +27,7 @@
         "region": "Greater Atlantic",
         "scientificName": "Scomber colias",
         "illustrationPhoto": {
-            "src": "fishes/640x427-Mackerel-Atlantic-NOAAFisheries.png",
+            "src": "../fishes/640x427-Mackerel-Atlantic-NOAAFisheries.png",
             "alt": "Illustration of Atlantic chub mackerel",
             "title": "Atlantic chub mackerel"
         },
@@ -37,7 +38,7 @@
         "region": "Greater Atlantic",
         "scientificName": "Illex illecebrosus",
         "illustrationPhoto": {
-            "src": "fishes/shortfin-squid.webp",
+            "src": "../fishes/shortfin-squid.webp",
             "alt": "shortfin squid",
             "title": "Shortfin Squid"
         },
@@ -48,7 +49,7 @@
         "region": "Greater Atlantic",
         "scientificName": "Homarus americanus",
         "illustrationPhoto": {
-            "src": "fishes/640x427-american-lobster.png",
+            "src": "../fishes/640x427-american-lobster.png",
             "alt": "American Lobster",
             "title": "American Lobster"
         },
@@ -59,7 +60,7 @@
         "region": "West Coast, Alaska",
         "scientificName": "Sebastes flavidus",
         "illustrationPhoto": {
-            "src": "fishes/640x427-rockfish_yellowtail_nb_w.jpg",
+            "src": "../fishes/640x427-rockfish_yellowtail_nb_w.jpg",
             "alt": "Yellowtail rockfish",
             "title": "Yellowtail rockfish"
         },
@@ -70,7 +71,7 @@
         "region": "West Coast, Alaska",
         "scientificName": "Sebastes paucispinis",
         "illustrationPhoto": {
-            "src": "fishes/640x427-bocaccio.jpg",
+            "src": "../fishes/640x427-bocaccio.jpg",
             "alt": "Illustration of a Bocaccio rockfish.",
             "title": "Bocaccio rockfish."
         },
@@ -81,7 +82,7 @@
         "region": "West Coast, Greater Atlantic, Alaska",
         "scientificName": "Saccharina latissima",
         "illustrationPhoto": {
-            "src": "fishes/large-sugar-kelp-leaves.webp",
+            "src": "../fishes/large-sugar-kelp-leaves.webp",
             "alt": "",
             "title": ""
         },
@@ -92,7 +93,7 @@
         "region": "West Coast",
         "scientificName": "Anoplopoma fimbria",
         "illustrationPhoto": {
-            "src": "fishes/534e2f9f231ceeb4b29de752c1aaf936.jpeg",
+            "src": "../fishes/534e2f9f231ceeb4b29de752c1aaf936.jpeg",
             "alt": "",
             "title": ""
         },
@@ -102,10 +103,11 @@
         "region": "Greater Atlantic",
         "scientificName": "Hippoglossus hippoglossus",
         "illustrationPhoto": {
-            "src": "fishes/1200px-Hippoglossus_hippoglossus2.jpg",
+            "src": "../fishes/1200px-Hippoglossus_hippoglossus2.jpg",
             "alt": "Illustration of Atlantic Halibut.",
             "title": "Illustration of Atlantic Halibut."
         },
         "name": "Atlantic Halibut"
     }
 ]
+}

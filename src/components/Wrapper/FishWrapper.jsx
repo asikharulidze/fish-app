@@ -4,8 +4,17 @@ import Modal from "../Modal/Modal";
 import "./wrapper.css";
 import { nanoid } from 'nanoid'
 import CreateCardForm from "../CreateCardForm/CreateCardForm";
+import {useLoaderData} from "react-router-dom";
+import { getFish } from "../../services/fishApi";
 
-const FishWrapper = ({ fishes }) =>{
+export async function fishLoader(){
+    const fishes = await getFish();
+    console.log("fishLoader", fishes);
+    return fishes;
+}
+
+const FishWrapper = () =>{
+    const fishes = useLoaderData();
     const [createCard, setCreateCard] = useState (false);
     const [cardList, setCardList]   = useState (fishes);
     const cardClickedDone = (name)=>{

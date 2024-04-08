@@ -1,4 +1,6 @@
-const NavBarItem = ({ title })=>{
-    return <li className="NavBarItem "><a href="#">{title}</a></li>;
+import { NavLink } from "react-router-dom";
+
+const NavBarItem = ({ title, to })=>{
+    return <li className="NavBarItem "><NavLink to={to}>{title}</NavLink></li>;
 }
 export default NavBarItem;
